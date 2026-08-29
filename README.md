@@ -74,6 +74,10 @@ Captured live network traffic from the active Ethernet interface and examined pa
 **Key takeaway:**  
 Packet captures provide visibility into how endpoints communicate and allow an analyst to examine network activity at the packet level.
 
+### Evidence — Live Packet Capture
+
+![Live packet capture and traffic analysis](evidence/Trafficanalysis.png)
+
 ### 2. ARP Traffic Analysis
 
 Captured and analyzed ARP broadcast traffic on the local network, including ARP requests used to identify the device associated with an IPv4 address.
@@ -88,6 +92,10 @@ The request was sent to the Ethernet broadcast address:
 
 **Key takeaway:**  
 ARP allows devices on a local network to associate IPv4 addresses with MAC addresses. Understanding normal ARP behavior provides a baseline for recognizing unusual local network activity.
+
+### Evidence — ARP Traffic Analysis
+
+![ARP traffic analysis](evidence/SanitizedARPanalysis.png)
 
 ### 3. DNS Traffic Analysis
 
