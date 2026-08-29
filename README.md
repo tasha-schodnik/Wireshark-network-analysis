@@ -110,6 +110,10 @@ Observed DNS record types included:
 **Key takeaway:**  
 DNS analysis can reveal which domains a system is attempting to resolve and can provide useful evidence during network and security investigations.
 
+**Evidence — DNS Capture Using Port 53**
+
+![Sanitized Wireshark DNS capture showing port 53 traffic](evidence/SanitizedDNS.png)
+
 ### 4. TCP and TLS Traffic Analysis
 
 Captured TCP traffic and observed encrypted TLS communications between the workstation and remote systems.
