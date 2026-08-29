@@ -134,6 +134,10 @@ isolated TCP-based communications while excluding unrelated protocols such as AR
 **Key takeaway:**  
 TCP provides reliable communication for many network applications, while TLS protects application data through encryption. Recognizing TCP and TLS traffic is important when investigating endpoint communications.
 
+#### Evidence — TCP/TLS Traffic Analysis
+
+![Wireshark TCP and TLS traffic analysis](evidence/TCPTLSAnalysis.png)
+
 ### 5. Capture Filter Investigation
 
 Tested multiple Wireshark capture filters to control which packets were recorded.
@@ -171,6 +175,10 @@ Wireshark accepted the filter syntax, but no expected packets appeared. After co
 **Key takeaway:**  
 A valid capture filter does not guarantee that the filter contains the intended value. Troubleshooting requires verifying both filter syntax and the network information being investigated.
 
+#### Evidence — Network Capture Analysis
+
+![Wireshark network capture analysis](evidence/NetworkCaptureAnalysis.png)
+
 ---
 
 ## 🧩 Troubleshooting
@@ -187,6 +195,14 @@ Examples included:
 - Confirming packet capture statistics to identify whether packets were dropped.
 
 These troubleshooting steps reinforced the importance of validating assumptions and using observable evidence when investigating network activity.
+
+### Evidence — Incorrect Host Filter
+
+![Incorrect host filter showing no matching traffic](evidence/Incorrect%20Host%20Filter.png)
+
+### Evidence — Correct Host Filter
+
+![Correct host filter showing matching network traffic](evidence/Correct%20Host%20Filter.png)
 
 ---
 
